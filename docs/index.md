@@ -1,4 +1,4 @@
-# Welcome to MkDocs
+# Function App Template
 
 For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 
@@ -11,6 +11,12 @@ If you are creating this as a test project in your own workspace, or organisatio
 ## Initialising your project
 
 Once cloned to your local environment, open a powershell window and navigate to the reposiry directory. Run the `init.ps1` file to rename the repository to your new name.
+
+## Video
+
+This section is testing basic MP4 playing functionality
+
+![video]("media/vid.mp4")
 
 ## Project layout
 
