@@ -16,7 +16,13 @@ Once cloned to your local environment, open a powershell window and navigate to 
 
 This section is testing basic MP4 playing functionality
 
-![video]("media/vid.mp4")
+
+<iframe width="560" height="315"
+    src="media/vid.mp4" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+    allowfullscreen>
+</iframe>
 
 ## Project layout
 
