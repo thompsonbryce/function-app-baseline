@@ -16,6 +16,12 @@ Once cloned to your local environment, open a powershell window and navigate to 
 
 This section is testing basic MP4 playing functionality
 
+![type:video](./media/vid.mp4)
+
+<video width="320" height="240" controls>
+  <source src="media/vid.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
 
 <iframe width="560" height="315"
     src="media/vid.mp4" 
