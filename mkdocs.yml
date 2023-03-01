@@ -1,3 +1,5 @@
 site_name: Azure Function App Baseline Template
 theme:
   name: material
+repo_url: https://github.com/thompsonbryce/function-app-baseline
+repo_name: Golden Path Function App Template
