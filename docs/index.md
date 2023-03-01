@@ -16,17 +16,19 @@ Once cloned to your local environment, open a powershell window and navigate to 
 
 This section is testing basic MP4 playing functionality
 
-![](./media/vid.mp4)
+![a screenshot](./content/screenshot.png)
+
+![video](./media/vid.mp4)
 
 <video width="400" controls>
-  <source src="./media/vid.mp4" type="video/mp4">
+  <source src="./content/vid.mp4" type="video/mp4">
 Your browser does not support the video tag.
 </video>
 
 <iframe width="560" height="315"
-    src="media/vid.mp4" 
-    frameborder="0" 
-    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+    src="content/vid.mp4"
+    frameborder="0"
+    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
     allowfullscreen>
 </iframe>
 
