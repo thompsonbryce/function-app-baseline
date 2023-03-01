@@ -39,5 +39,10 @@ This section is testing basic MP4 playing functionality
         ...       # Other markdown pages, images and other files.
 
 <video width="400" controls>
-  <source src="./content/secondvideo.mp4" type="video/mp4">
+  <source src="https://github.com/thompsonbryce/function-app-baseline/blob/gh-pages/docs_content_secondvideo.mp4?raw=true" type="video/mp4">
+</video>
+
+
+<video width="400" controls>
+<source src="https://media.githubusercontent.com/media/thompsonbryce/function-app-baseline/github-pages/docs_content_secondvideo.mp4">
 </video>
