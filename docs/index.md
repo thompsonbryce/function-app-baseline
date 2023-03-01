@@ -12,24 +12,11 @@ If you are creating this as a test project in your own workspace, or organisatio
 
 Once cloned to your local environment, open a powershell window and navigate to the reposiry directory. Run the `init.ps1` file to rename the repository to your new name.
 
-## Video
+## Screenshot
 
-This section is testing basic MP4 playing functionality
+A screenshot 😀
 
 ![a screenshot](./content/screenshot.png)
-
-![video](./media/vid.mp4)
-
-<video width="400" controls>
-  <source src="./content/vid.mp4" type="video/mp4">
-</video>
-
-<iframe width="560" height="315"
-    src="content/vid.mp4"
-    frameborder="0"
-    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-    allowfullscreen>
-</iframe>
 
 ## Project layout
 
@@ -38,11 +25,34 @@ This section is testing basic MP4 playing functionality
         index.md  # The documentation homepage.
         ...       # Other markdown pages, images and other files.
 
+## Video
+
+This section is testing basic MP4 playing functionality
+
+### Video referenced with markdown image format 
+
+![video](./content/vid.mp4)
+
+(doesnt work)
+
+### Video referenced with &lt;video&gt; tags
+
 <video width="400" controls>
-  <source src="https://github.com/thompsonbryce/function-app-baseline/blob/gh-pages/content/secondvideo.mp4?raw=true" type="video/mp4">
+  <source src="./content/vid.mp4" type="video/mp4">
 </video>
 
 
+### Video referenced with &lt;iframe&gt; tags
+
+<iframe width="560" height="315"
+    src="content/vid.mp4"
+    frameborder="0"
+    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen>
+</iframe>
+
+### LFS Video referenced by content URL
+
 <video width="400" controls>
-<source src="https://media.githubusercontent.com/media/thompsonbryce/function-app-baseline/github-pages/docs_content_secondvideo.mp4">
+  <source src="https://github.com/thompsonbryce/function-app-baseline/blob/gh-pages/content/secondvideo.mp4?raw=true" type="video/mp4">
 </video>
