@@ -52,6 +52,4 @@ This section is testing basic MP4 playing functionality
 
 ### LFS Video referenced by content URL
 
-<video width="400" controls>
-  <source src="https://github.com/thompsonbryce/function-app-baseline/blob/gh-pages/content/secondvideo.mp4?raw=true" type="video/mp4">
-</video>
+Removed content because when creating a new repository from a template, the LFS content is not accessible from the new repository.
