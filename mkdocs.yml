@@ -2,4 +2,11 @@ site_name: Azure Function App Baseline Template
 theme:
   name: material
 repo_url: https://github.com/thompsonbryce/function-app-baseline
+
 repo_name: Golden Path Function App Template
+markdown_extensions:
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
