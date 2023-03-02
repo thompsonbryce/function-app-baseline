@@ -52,4 +52,4 @@ This section is testing basic MP4 playing functionality
 
 ### LFS Video referenced by content URL
 
-Removed content because when creating a new repository from a template, the LFS content is not accessible from the new repository.
+LFS content works with a workaround, but I have removed content because when creating a new repository from a template, the LFS content is not accessible from the new repository.
