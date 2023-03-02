@@ -30,14 +30,14 @@ This section is testing basic MP4 playing functionality
 
 ### Video referenced with markdown image format 
 
-![video](../content/vid.mp4)
+![video](./content/vid.mp4)
 
 (doesnt work)
 
 ### Video referenced with &lt;video&gt; tags
 
 <video width="400" controls>
-  <source src="../content/vid.mp4" type="video/mp4">
+  <source src="./content/vid.mp4" type="video/mp4">
 </video>
 
 ### LFS Video referenced by content URL
