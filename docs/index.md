@@ -12,3 +12,6 @@ If you are creating this as a test project in your own workspace, or organisatio
 
 Once cloned to your local environment, open a powershell window and navigate to the reposiry directory. Run the `init.ps1` file to rename the repository to your new name.
 
+### Gifs
+
+![cat](./content/giphy.gif)
